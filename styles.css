@@ -1,0 +1,32 @@
+.grid-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.grid-row{
+
+    display:flex;
+    flex-direction: row;
+
+}
+
+.grid-square{
+    height:5px;
+    width:5px;
+    background-color: black;
+   
+    
+
+}
+
+
+
+html,body {
+
+    height:100%;
+    width:100%;
+
+
+}
+
+
