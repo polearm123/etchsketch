@@ -1,6 +1,8 @@
 function changeSquareColor(e){
-    
-    this.style.backgroundColor = "white";
+    let red = Math.floor(Math.random()*250);
+    let green = Math.floor(Math.random()*250);
+    let blue = Math.floor(Math.random()*250);
+    this.style.backgroundColor = `rgb(${red},${green},${blue})`;
 
 }
 
@@ -53,7 +55,6 @@ wipeButton.addEventListener("click", () => {
     
     allSquares.forEach((square) => square.style.backgroundColor = "black");
 
-    console.log("hello");
 
     
 
